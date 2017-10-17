@@ -3,20 +3,33 @@ h1 {
 }
 h3 {
   text-align: center;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+p {
+  text-align: center;
+  padding: 1.4em;
+  margin: 0;
+  color: #666;
 }
 .clickable {
-  color: blue;
+  color: #4881ea;
 }
 .clickable:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 .col-md-6 {
   width: 45%;
-  height: 5em;
+  height: 5.5em;
   margin: 0 5px 10px;
 }
 .box {
-  border: solid;
+  border: 1px solid #666;
+  transition: background-color .3s ease-in-out;
+}
+.box:hover {
+  background-color: #eee;
 }
 .disappear {
   display: none;

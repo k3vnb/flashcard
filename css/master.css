@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.clickable {
+  color: blue;
+}
+.clickable:hover {
+  text-decoration: underline;
+}
+.col-md-6 {
+  width: 45%;
+  height: 5em;
+  margin: 0 5px 10px;
+}
+.box {
+  border: solid;
+}
+.disappear {
+  display: none;
+}
